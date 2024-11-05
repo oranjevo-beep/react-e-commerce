@@ -1,0 +1,18 @@
+.sign-in {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sign-in-button {
+  background-color: #3291e3;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: all 0.3s;
+  &:hover {
+    background-color: #1c9df3;
+  }
+}
